@@ -22,9 +22,15 @@ toggleDetails(index){
   this.goals[index].showDescription = !this.goals[index].showDescription;
 }
 
-constructor() { }
+  completeGoal(isComplete, index) {
+    if (isComplete) {
+      this.goals.splice(index, 1);
+    }
+  }
 
-ngOnInit() {
-}
+  constructor() { }
+
+  ngOnInit() {
+  }
 
 }
