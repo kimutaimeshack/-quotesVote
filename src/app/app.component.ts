@@ -7,7 +7,7 @@ import { Goal } from './goal';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  myobject: Goal[] = [
+  goals: Goal[] = [
     { id: 1, name: 'Watch finding Nemo' },
     { id: 2, name: 'Buy Cookies' },
     { id: 3, name: 'Get new Phone Case' },
