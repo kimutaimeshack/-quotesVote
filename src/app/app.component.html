@@ -1,3 +1,9 @@
-<div class="home">
-  <h1>Make A Vote</h1>
+<div>
+  <h1>My Vote Count</h1>
+  <hr>
+  <ul>
+      <li *ngFor='let goal of goals'>
+        {{goal.name}}
+      </li>
+  </ul>
 </div>
