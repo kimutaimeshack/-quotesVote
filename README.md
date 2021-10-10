@@ -14,6 +14,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 </tr>
 </table>
 
+### Home page
+![alt text](https://github.com/kimutaimeshack/-quotesVote/blob/master/src/assets/quote.png)
+*********
+
 ## project live link
 Here is a working live link : https://github.com/kimutaimeshack/-quotesVote.git
 
