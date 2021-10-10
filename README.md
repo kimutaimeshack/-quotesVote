@@ -19,7 +19,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 *********
 
 ## project live link
-Here is a working live link : https://github.com/kimutaimeshack/-quotesVote.git
+Here is a working live link : https://kimutaimeshack.github.io/-quotesVote/
 
 *********
 ## Development
