@@ -1,14 +1,27 @@
 .quoteboundary{
   border: 20px solid skyblue;
   padding: 20px;
+  text-align: center;
  
 }
 
 .votebutton {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  padding: 20px;
- 
 
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+
+}
+.downvoteo {
+background-color: rgb(221, 32, 32);
+margin-left: 20px;
+text-align: center;
+}
+.upvoteo {
+ background-color: green;
+ margin-left: 30px;
+ text-align: center;
 }

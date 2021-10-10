@@ -9,11 +9,12 @@
     <div class="col-md-6 quoteboundary">
       <div *ngFor='let goal of goals;let i = index'>
         <div>
-          <h6 id={{i}} appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</h6>
+          <h6 id={{i}} appStrikethrough>{{goal.name}} </h6>
+            <p>By {{goal.author}}  {{goal.completeDate|date|uppercase}}</p>
           <div class="votebutton"> 
-            <button  class="btn btn-primary">Upvote</button>
-            <button class="btn btn-primary">downvote</button>
-          </div>
+            <button  class="btn btn-primary upvoteo">Upvote</button>
+            <button class="btn btn-primary downvoteo">downvote</button>
+          </div><br>
           <button (click)='toggleDetails(i)' class="moredetails">more Details</button>
         </div>
 
