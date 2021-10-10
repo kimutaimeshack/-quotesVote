@@ -56,7 +56,7 @@ This project is under:
 
 The MIT licence
 
-Click  [Here](https://github.com/kimutaimeshack/My_pizza-corner/blob/master/LICENSE) to view the LICENSE
+Click  [Here](https://github.com/kimutaimeshack/-quotesVote/blob/master/LICENSE) to view the LICENSE
 
 
 
