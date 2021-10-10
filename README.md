@@ -1,7 +1,7 @@
 # QuoteVote
 *********
 ## Author
-[MESHACK KIMUTAI](https://github.com/kimutaimeshack?tab=repositories)
+by [MESHACK KIMUTAI](https://github.com/kimutaimeshack?tab=repositories)
 *********
 ## Description
 
