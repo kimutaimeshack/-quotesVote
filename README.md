@@ -50,11 +50,12 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Technologies Used
 * HTML
 * CSS
-* Angular
+* Angular CLI
 * Bootstrap 
 * jQuery
 *********
 ## License
+THIS FILE IS UNDER [MIT](LICENSE) LICENSE
 This project is under: 
 
 The MIT licence
