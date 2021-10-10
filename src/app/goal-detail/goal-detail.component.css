@@ -1,0 +1,7 @@
+.votebutton{
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  padding: 20px;
+  
+}

@@ -1,9 +1,12 @@
 <div class="container">
-  <h1>MY GOALS</h1>
+  <h1>QUOTE SITE</h1>
   <hr>
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 quoteboundary">
+      <app-goal-form (addGoal)="addNewGoal($event)"></app-goal-form>
+      </div>
+    <div class="col-md-6 quoteboundary">
       <div *ngFor='let goal of goals;let i = index'>
         <div>
           <h6 id={{i}} appStrikethrough>{{goal.name}} due on {{goal.completeDate|date|uppercase}}</h6>
@@ -15,9 +18,6 @@
         </div>
       </div>
     </div>
-   <div class="col-md-6">
-      <app-goal-form (addGoal)="addNewGoal($event)"></app-goal-form>
- </div>
+   
   </div>
-  <p *ngIf='goals.length > 5'>You have too many goals</p>
 </div>
