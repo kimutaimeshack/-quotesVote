@@ -9,7 +9,7 @@ import { Goal } from '../goal';
   export class GoalComponent implements OnInit {
 
   goals: Goal[] = [
-    new Goal(1, 'Kibaki was the best president', 'He does much for kenya','meshack', new Date(2019, 9, 14)),
+    new Goal(1, 'meshack','Kibaki was the best president', 'He does much for kenya','meshack', new Date(2019, 9, 14)),
   ];
  
 toggleDetails(index){
