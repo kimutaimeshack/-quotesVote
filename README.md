@@ -50,20 +50,12 @@ To fix a bug or enhance an existing module, follow these steps:
 ## Technologies Used
 * HTML
 * CSS
-* Angular
+* Angular CLI
 * Bootstrap 
 * jQuery
 *********
 ## License
-This project is under: 
-
-The MIT licence
-
-Click  [Here](https://github.com/kimutaimeshack/-quotesVote/blob/master/LICENSE) to view the LICENSE
-
-
-
-
+THIS PROJECT IS UNDER [MIT](LICENSE) LICENSE
 
 
 ## Development server
