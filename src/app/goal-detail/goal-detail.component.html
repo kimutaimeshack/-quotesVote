@@ -1,7 +1,14 @@
 <p>{{goal.description}}</p>
  <div class="votebutton"> 
-            <button  class="btn btn-primary upvoteo">Upvote</button>
-            <button class="btn btn-primary downvoteo">downvote</button>
+
+ 
+  <button  (click)="Upvote()" class="btn btn-primary upvoteo">Upvote</button>
+   ({{qoutelikes}})
+
+    <button (click)="Downvote()" class="btn btn-primary downvoteo">downvote</button>
+   ({{qoutedisLikes}})
+
+          
           </div><br>
 <i><p class="display1">By {{goal.author}}  </p> </i>
 <p> Posted on {{goal.completeDate|dateCount}} days since created </p>

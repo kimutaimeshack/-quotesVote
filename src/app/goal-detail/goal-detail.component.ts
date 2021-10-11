@@ -8,6 +8,9 @@ import { Goal } from '../goal';
 })
 export class GoalDetailComponent implements OnInit {
 
+  qoutelikes: number;
+  qoutedisLikes: number;
+
   @Input() goal: Goal;
   @Output() isComplete = new EventEmitter<boolean>();
 
@@ -17,7 +20,20 @@ export class GoalDetailComponent implements OnInit {
   goalDelete(complete: boolean) {
     this.isComplete.emit(complete);
   }
-  constructor() { }
+ 
+  constructor() {
+    this.qoutelikes = 0;
+    this.qoutedisLikes = 0;
+  }
+  Upvote(): boolean {
+    this.qoutelikes += 1;
+    return false;
+  }
+
+  Downvote(): boolean {
+    this.qoutedisLikes += 1;
+    return false;
+  }
 
   ngOnInit() {
   }
